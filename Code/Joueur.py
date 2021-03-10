@@ -10,5 +10,13 @@ class Joueur(pygame.sprite.Sprite):
 
 
 
-    def image(self,skin):
-        
+    def joueur(self,skin):
+        skin =pygame.image.load("idée perso.png")
+        skin = pygame.transform.scale((110, 110))
+        self.skin = pygame.Surface((34,34))
+        mouvement =
+
+
+
+
+
