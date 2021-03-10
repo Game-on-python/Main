@@ -1,5 +1,5 @@
 import pygame
-import Joueur.py
+import Joueur
 
 
 
@@ -24,4 +24,3 @@ SIZE = (700, 500)
 screen = pygame.display.set_mode(SIZE)
 
 
-if pygame.
