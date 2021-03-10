@@ -10,4 +10,5 @@ class Joueur(pygame.sprite.Sprite):
 
 
 
-    def movement(self,):
+    def image(self,skin):
+        
