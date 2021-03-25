@@ -21,6 +21,18 @@ SIZE = (700, 500)
 
 
 # Création d'une fenêtre à la taille choisie
+pygame.display.set_caption("Pixel Run")
 screen = pygame.display.set_mode(SIZE)
+
+running = True 
+#boucle tant que cette condition est vraie (running)
+while running :
+  #si user ferme la fenetre
+  for event in pygame.event.get():
+    #que l'event est fermeture de la fenetre
+      if event.type == pygame.QUIT :
+        running = False
+        pygame.quit()
+        print("Fermeture du jeu")
 
 
