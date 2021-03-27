@@ -1,5 +1,6 @@
 import pygame
 import Joueur
+import Lecteur_De_Matrice
 
 
 
@@ -34,5 +35,9 @@ while running :
         running = False
         pygame.quit()
         print("Fermeture du jeu")
+
+
+matrice = [[1,0,2,3]
+           [1,2,3,4]]
 
 

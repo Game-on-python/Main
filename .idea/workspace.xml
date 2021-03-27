@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Code/Lecteur de matrice.py" afterDir="false" />
+    <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
+      <change afterPath="$PROJECT_DIR$/Code/Test_matrice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Lecteur de matrice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -153,6 +156,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615199272974</updated>
     </task>
+    <task id="LOCAL-00001" summary="Elganto">
+      <created>1616837346937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616837346937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,27 +178,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Elganto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elganto" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615372252314">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="757" height="223" key="GridCell.Tab.0.bottom" timestamp="1616836519878">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1616839155458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616836519878" />
-    <state width="757" height="223" key="GridCell.Tab.0.center" timestamp="1616836519877">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616839155458" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1616839155458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1616836519877" />
-    <state width="757" height="223" key="GridCell.Tab.0.left" timestamp="1616836519877">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1616839155458" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1616839155457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1616836519877" />
-    <state width="757" height="223" key="GridCell.Tab.0.right" timestamp="1616836519878">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1616839155457" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1616839155458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1616836519878" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1616839155458" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616668990411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
