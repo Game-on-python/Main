@@ -18,7 +18,7 @@ class Objet_Physique:
 
     # actualise la vélocité de l'objet en fonction de la Gravité
     def Chute_Libre(self):
-        self.Velocite.y = self.Velocite.y + self.GRAVITE
+        self.Velocite.y = self.Velocite.y + self.GRAVITE * self.Masse
 
 
 

@@ -21,6 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Joueur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Joueur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Lecteur_De_Matrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Lecteur_De_Matrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Objet_Physique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Objet_Physique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Test_matrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Test_matrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texture/Joueur/Heros - Vue de coté-1.png.png" beforeDir="false" afterPath="$PROJECT_DIR$/Texture/Joueur/Heros_vue_de_cote.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +190,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1617182219586">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1617269956316">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617182219586" />
-    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1617182219586">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617269956316" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1617269956316">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617182219586" />
-    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1617182219586">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617269956316" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1617269956316">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617182219586" />
-    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1617182219586">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617269956316" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1617269956316">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617182219586" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617269956316" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616668990411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

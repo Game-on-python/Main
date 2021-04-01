@@ -7,6 +7,8 @@ class Joueur(Objet_Physique):
     #constante modifiable
     Vittese_Deplacement = 5
     Puissance_Saut = 200
+    Hauteur=32
+    Largeur=32
 
     #vas changer la vélocité du Joueur en fonction de la direction demandé
     def Bouger_Joueur(self,Direction_Gauche):
@@ -20,6 +22,11 @@ class Joueur(Objet_Physique):
     #Changer la véolicté y en fonction de sa puissance de Saut (qui est une constante modifiable)
     def Sauter(self):
         self.Velocite.y = -self.Puissance_Saut
+
+    #accéde au pied du joueur pour ses colisions
+    def Pied(self):
+        return Point(self.Position.x + self.Largeur/2,self.Position.y+ self.Hauteur)
+#MOUVEMENT DU JOUEUR : associez une touche au mouvement (BOUGER JOUEUR)
 
 
 

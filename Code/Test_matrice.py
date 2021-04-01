@@ -1,4 +1,9 @@
-from "C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Code" import Lecteur_de_matrice
-
-matrice = [[1,0,2,3]
-           [1,2,3,4]]
+matrice = [[1]*6,
+           [1]*6,
+           [1]*6,
+           [0]*3+[1]*3,
+           [0]*6,
+           [1,2,3,2,3,2],
+           [1,0,2,3,2,1],
+           [0]*6]
+# pour mettre plusieurs fois le meme chiffre de manière rapidement [1]*600
