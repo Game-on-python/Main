@@ -18,11 +18,15 @@ clock = pygame.time.Clock()
 
 
 #apparition du personnage
-J1=Joueur(Point(0,0),0.04,Point(1,0))
+J1=Joueur(Point(0,0),0.04,Point(0,0))
 Sprite_J1=pygame.image.load('../Texture/Joueur/Heros_vue_de_cote.png')
 # Création d'une fenêtre à la taille choisie
 pygame.display.set_caption("Pixel Run")
 screen = pygame.display.set_mode(SIZE)
+
+
+
+
 
 
 running = True 
@@ -40,11 +44,21 @@ while running :
   J1.Changer_Position()
   #si user ferme la fenetre
   for event in pygame.event.get():
-    #que l'event est fermeture de la fenetre
+    if event.type == pygame.KEYDOWN:
+      if event.key == pygame.K_a :
+        J1.Bouger_Joueur(Direction_Gauche=True)
+      if event.key == pygame.K_d:
+        J1.Bouger_Joueur(Direction_Gauche=False)
+      if event.key == pygame.K_SPACE:
+        J1.Sauter()
+      if event.type == pygame.KEYUP:
+        if event.key == pygame.K_a or event.key == pygame.K_d:
+          J1.Velocite.x = 0
+      #que l'event est fermeture de la fenetre
       if event.type == pygame.QUIT :
         running = False
         print("Fermeture du jeu")
-  # affichage de la matrice et du joueur
+  # affichage de la matrice et du
   screen.fill(BLACK)
   Lecteur_De_Matrice(0, 10, 0, 10, matrice, screen)
   screen.blit(Sprite_J1, (int(J1.Position.x), int(J1.Position.y)))

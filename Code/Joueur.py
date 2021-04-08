@@ -6,7 +6,7 @@ from Code.Point import Point
 class Joueur(Objet_Physique):
     #constante modifiable
     Vittese_Deplacement = 5
-    Puissance_Saut = 200
+    Puissance_Saut = 10
     Hauteur=32
     Largeur=32
 
@@ -26,7 +26,6 @@ class Joueur(Objet_Physique):
     #accéde au pied du joueur pour ses colisions
     def Pied(self):
         return Point(self.Position.x + self.Largeur/2,self.Position.y+ self.Hauteur)
-#MOUVEMENT DU JOUEUR : associez une touche au mouvement (BOUGER JOUEUR)
 
 
 
