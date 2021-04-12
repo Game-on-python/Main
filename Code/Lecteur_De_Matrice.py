@@ -5,7 +5,7 @@ Taille_di_une_case = 64
 
 def Lecteur_De_Matrice (x_depart, x_arrive,y_depart,y_arrive,matrice,Screen) :
     for i in range(max(x_depart,0),min(x_arrive,len(matrice))):
-        for j in ra   nge(max(y_depart,0),min(y_arrive,len(matrice[i]))):
+        for j in range(max(y_depart,0),min(y_arrive,len(matrice[i]))):
             temporaire = matrice[i][j]
             sprite = Tab_matrice[temporaire]
             y=Taille_di_une_case*(i-x_depart)

@@ -26,6 +26,15 @@ class Joueur(Objet_Physique):
     #accéde au pied du joueur pour ses colisions
     def Pied(self):
         return Point(self.Position.x + self.Largeur/2,self.Position.y+ self.Hauteur)
+    def collision_Haut_Gauche(self):
+        self.Position.x, self.Position.y
+    def collision_Haut_Droite(self):
+        self.Position.x, self.Largeur, self.Position.y
+    def collision_Bas_Gauche(self):
+        self.Position.x , self.Position.y + self.Hauteur
+    def collision_Bas_Droite(self):
+        self.Position.x+self.Largeur, self.Position.y + self.Hauteur
+
 
 
 
