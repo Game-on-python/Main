@@ -27,14 +27,19 @@ class Joueur(Objet_Physique):
     def Pied(self):
         return Point(self.Position.x + self.Largeur/2,self.Position.y+ self.Hauteur)
 
+    def Tete(self):
+        return Point(self.Position.x + self.Largeur/2,self.Position.y)
+
     def collision_Haut_Gauche(self):
-        return self.Position.x, self.Position.y
+        return Point(self.Position.x, self.Position.y)
     def collision_Haut_Droite(self):
-        return self.Position.x, self.Largeur, self.Position.y
+        return Point(self.Position.x + self.Largeur, self.Position.y)
     def collision_Bas_Gauche(self):
-        return self.Position.x , self.Position.y + self.Hauteur
+        return Point(self.Position.x , self.Position.y + self.Hauteur -1)
     def collision_Bas_Droite(self):
-        return self.Position.x+self.Largeur, self.Position.y + self.Hauteur
+        return Point(self.Position.x+self.Largeur, self.Position.y + self.Hauteur -1)
+
+
 
 
 

@@ -3,6 +3,7 @@ from Code.Joueur import Joueur
 from Code.Lecteur_De_Matrice import Lecteur_De_Matrice
 from Code.Test_matrice import matrice
 from Code.Point import Point
+from Code.Fonction import *
 
 
 
@@ -19,7 +20,7 @@ clock = pygame.time.Clock()
 
 
 #apparition du personnage
-J1=Joueur(Point(0,0),0.04,Point(0,0))
+J1=Joueur(Point(128,128),0.04,Point(0,0))
 Sprite_J1=pygame.image.load('../Texture/Joueur/Heros_vue_de_cote.png')
 # Création d'une fenêtre à la taille choisie
 pygame.display.set_caption("Pixel Run")
@@ -30,7 +31,7 @@ screen = pygame.display.set_mode(SIZE)
 
 
 
-running = True 
+running = True
 #boucle tant que cette condition est vraie (running)
 while running :
   #récupère un morceaux de la colonne de la matrice dans lequelle le joueur est entrain de tomber
@@ -42,24 +43,37 @@ while running :
       J1.Velocite.y=((J1.Pied().y//64 + y_Block)*64) - J1.Pied().y
   else:
     J1.Chute_Libre()
+  tranche_Haut = [matrice[i][int(J1.Tete().x // 64)] for i in range(int(J1.Tete().y // 64),int((J1.Tete().y + J1.Velocite.y) // 64)-1,-1)]
+  print(tranche_Haut)
+  if J1.Velocite.y > 0 and 0 in tranche_Haut:
+    #J1.Velocite.y = 0
+    y_Block=tranche_Haut.index(0)
+    print(y_Block)
+    print(((J1.Tete().y//64 - y_Block+1)*64) - J1.Tete().y)
+    J1.Velocite.y=((J1.Tete().y//64 - y_Block+1)*64) - J1.Tete().y
   J1.Changer_Position()
   #si user ferme la fenetre
   for event in pygame.event.get():
     keys=pygame.key.get_pressed()
     if keys[pygame.K_a]:
-      tranche = [matrice[i][int(J1.collision_Haut_Gauche().x // 64):int((J1.collision_Haut_Gauche().x + J1.Velocite.x) // 64) + 1]for i in range(int(J1.collision_Haut_Gauche().y // 64), int(J1.collision_Bas_Gauche().y // 64) + 1)]
       J1.Bouger_Joueur(Direction_Gauche=True)
     if keys[pygame.K_d]:
       J1.Bouger_Joueur(Direction_Gauche=False)
-      tranche = [matrice[i][int(J1.collision_Haut_Droite().x // 64):int((J1.collision_Haut_Droite().x + J1.Velocite.x) // 64) + 1]for i in range(int(J1.collision_Haut_Droite().y // 64), int(J1.collision_Bas_Droite().y // 64) + 1)]
     if keys[pygame.K_SPACE]:
       J1.Sauter()
+
     if not keys[pygame.K_a] and not keys[pygame.K_d]:
       J1.Velocite.x = 0
     #que l'event est fermeture de la fenetre
     if event.type == pygame.QUIT :
       running = False
       print("Fermeture du jeu")
+  tranche_Gauche = [matrice[i][int(J1.collision_Haut_Gauche().x // 64):int((J1.collision_Haut_Gauche().x + J1.Velocite.x) // 64) + 1]for i in range(int(J1.collision_Haut_Gauche().y // 64), int(J1.collision_Bas_Gauche().y // 64) + 1)]
+  if J1.Velocite.x<0 and 0 in tableau_aplatir(tranche_Gauche):
+    J1.Velocite.x = 0
+  tranche_Droite = [matrice[i][int(J1.collision_Haut_Droite().x // 64):int((J1.collision_Haut_Droite().x + J1.Velocite.x) // 64) + 1]for i in range(int(J1.collision_Haut_Droite().y // 64), int(J1.collision_Bas_Droite().y // 64) + 1)]
+  if J1.Velocite.x>0 and 0 in tableau_aplatir(tranche_Droite):
+    J1.Velocite.x = 0
   # affichage de la matrice et du
   screen.fill(BLACK)
   Lecteur_De_Matrice(0, 10, 0, 10, matrice, screen)
