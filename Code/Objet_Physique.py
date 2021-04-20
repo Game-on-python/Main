@@ -14,7 +14,9 @@ class Objet_Physique:
 
     #Actualise la position de l'objet en fonction de sa vélocité
     def Changer_Position(self):
-        self.Position = self.Position + self.Velocite
+        variable = self.Position + self.Velocite
+        #arrondir les chiffres pour éviter que le personnage tremble
+        self.Position = Point(int(variable.x),int(variable.y))
 
     # actualise la vélocité de l'objet en fonction de la Gravité
     def Chute_Libre(self):

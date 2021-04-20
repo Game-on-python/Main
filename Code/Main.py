@@ -10,11 +10,13 @@ from Code.Fonction import *
 pygame.init()
 
 
+
+
 # Code RGB du noir et du blanc
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 # Taille de l'écran
-SIZE = (700, 500)
+SIZE = (1280,720 )
 # l'horloge est utilisée pour le contrôle de la vitesse de rafraîchissement de l’écran
 clock = pygame.time.Clock()
 
@@ -44,12 +46,9 @@ while running :
   else:
     J1.Chute_Libre()
   tranche_Haut = [matrice[i][int(J1.Tete().x // 64)] for i in range(int(J1.Tete().y // 64),int((J1.Tete().y + J1.Velocite.y) // 64)-1,-1)]
-  print(tranche_Haut)
-  if J1.Velocite.y > 0 and 0 in tranche_Haut:
+  if J1.Velocite.y < 0 and 0 in tranche_Haut:
     #J1.Velocite.y = 0
     y_Block=tranche_Haut.index(0)
-    print(y_Block)
-    print(((J1.Tete().y//64 - y_Block+1)*64) - J1.Tete().y)
     J1.Velocite.y=((J1.Tete().y//64 - y_Block+1)*64) - J1.Tete().y
   J1.Changer_Position()
   #si user ferme la fenetre
@@ -60,7 +59,8 @@ while running :
     if keys[pygame.K_d]:
       J1.Bouger_Joueur(Direction_Gauche=False)
     if keys[pygame.K_SPACE]:
-      J1.Sauter()
+      if 0 in tranche:
+        J1.Sauter()
 
     if not keys[pygame.K_a] and not keys[pygame.K_d]:
       J1.Velocite.x = 0
