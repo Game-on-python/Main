@@ -6,7 +6,7 @@ from Code.Point import Point
 class Joueur(Objet_Physique):
     #constante modifiable
     Vittese_Deplacement = 5
-    Puissance_Saut = 10
+    Puissance_Saut = 11
     Hauteur=32
     Largeur=32
 

@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
+      <change afterPath="$PROJECT_DIR$/Code/Level_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Level_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/Selecteur_de_niveaux.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Joueur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Joueur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Lecteur_De_Matrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Lecteur_De_Matrice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Objet_Physique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Objet_Physique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Test_matrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Test_matrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Matrice (level 2).py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Test_matrice.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +56,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Texture\Niveaux 1" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.Main">
     <configuration name="Fonction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -94,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Level_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Code\Level_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Objet_Physique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,28 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Objet_Physique.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Main" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Point.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,10 +171,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.Level_0" />
         <item itemvalue="Python.Fonction" />
         <item itemvalue="Python.Joueur" />
-        <item itemvalue="Python.Objet_Physique" />
-        <item itemvalue="Python.Point" />
       </list>
     </recent_temporary>
   </component>
@@ -209,42 +220,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1618908437510">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1619336303454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1618908437510" />
-    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1618908437510">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619336303454" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1619336303454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1618908437510" />
-    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1618908437510">
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1619336303454" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1619336303454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1618908437510" />
-    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1618908437510">
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1619336303454" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1619336303454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1618908437510" />
-    <state width="745" height="276" key="GridCell.Tab.1.bottom" timestamp="1617716536698">
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1619336303454" />
+    <state width="1515" height="276" key="GridCell.Tab.1.bottom" timestamp="1619335760518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="745" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617716536698" />
-    <state width="745" height="276" key="GridCell.Tab.1.center" timestamp="1617716536697">
+    <state width="1515" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1619335760518" />
+    <state width="1515" height="276" key="GridCell.Tab.1.center" timestamp="1619335760518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="745" height="276" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1617716536697" />
-    <state width="745" height="276" key="GridCell.Tab.1.left" timestamp="1617716536697">
+    <state width="1515" height="276" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1619335760518" />
+    <state width="1515" height="276" key="GridCell.Tab.1.left" timestamp="1619335760518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="745" height="276" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1617716536697" />
-    <state width="745" height="276" key="GridCell.Tab.1.right" timestamp="1617716536697">
+    <state width="1515" height="276" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1619335760518" />
+    <state width="1515" height="276" key="GridCell.Tab.1.right" timestamp="1619335760518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="745" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1617716536697" />
+    <state width="1515" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1619335760518" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616668990411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1616668990411" />
+    <state x="478" y="165" width="579" height="534" key="find.popup" timestamp="1619335848515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="478" y="165" width="579" height="534" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1619335848515" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1616668744762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
