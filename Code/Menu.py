@@ -28,7 +28,7 @@ def menus():
     # l'horloge est utilisée pour le contrôle de la vitesse de rafraîchissement de l’écran
     clock = pygame.time.Clock()
     running = True
-    Boutons=[Bouton(Point(10,10),400,100,None,"../Texture/Menu/Bouton.png"),Bouton(Point(200,300),400,100,None,"../Texture/Menu/Bouton.png")]
+    Boutons=[Bouton(Point(10,10),400,100,None,"../Texture/Menu/Button_Start.png"),Bouton(Point(200,300),400,100,None,"../Texture/Menu/Bouton.png")]
     while running:
         # si user ferme la fenetre
         for event in pygame.event.get():

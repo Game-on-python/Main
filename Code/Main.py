@@ -11,8 +11,6 @@ pygame.init()
 
 
 
-
-
 # Code RGB du noir et du blanc
 BLUE = (60, 60, 255)
 WHITE = (255, 255, 255)
