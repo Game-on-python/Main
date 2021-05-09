@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
-      <change afterPath="$PROJECT_DIR$/Code/Level_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Level_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Level_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Texture/Logo Jeu-1.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Texture/Menu/Menu.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
       <recent name="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Texture\Niveaux 1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Menu">
     <configuration name="Fonction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Menu" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Level_0 (1)" />
-        <item itemvalue="Python.Menu" />
         <item itemvalue="Python.Level_0" />
         <item itemvalue="Python.Fonction" />
       </list>
@@ -218,22 +213,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1620308640263">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1620465607781">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620308640263" />
-    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1620308640263">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620465607781" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1620465607780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620308640263" />
-    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1620308640262">
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620465607780" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1620465607780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620308640262" />
-    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1620308640263">
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620465607780" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1620465607780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620308640263" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620465607780" />
     <state width="1515" height="276" key="GridCell.Tab.1.bottom" timestamp="1619335760518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

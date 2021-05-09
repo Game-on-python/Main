@@ -18,7 +18,7 @@ class Bouton:
 def menus():
     # Code RGB du noir et du blanc
     #la taille de l'image sera pris en compte dans le menus
-    fond = pygame.image.load("../Texture/Menu/Menu.png")
+    #fond = pygame.image.load("../Texture/Menu/Menu.png")
     BLUE = (60, 60, 255)
     # Taille de l'écran
     SIZE = (720, 500)
@@ -28,7 +28,7 @@ def menus():
     # l'horloge est utilisée pour le contrôle de la vitesse de rafraîchissement de l’écran
     clock = pygame.time.Clock()
     running = True
-    Boutons=[Bouton(Point(10,10),400,100,None,"../Texture/Menu/Button_Start.png"),Bouton(Point(200,300),400,100,None,"../Texture/Menu/Bouton.png")]
+    Boutons=[Bouton(Point(10,10),400,100,None,"./Code/Button_Start.png"),Bouton(Point(200,300),400,100,None,"../Texture/Menu/Bouton.png")]
     while running:
         # si user ferme la fenetre
         for event in pygame.event.get():
@@ -44,7 +44,7 @@ def menus():
                 print("Fermeture du jeu")
         # affichage de la matrice et du
         screen.fill(BLUE)
-        screen.blit(fond,(0,0))
+        #screen.blit(fond,(0,0))
         for b in Boutons:
             screen.blit(b.image,(int(b.Position.x),int(b.Position.y)))
         # --- ‘update’ l’écran avec le dessin des lignes
