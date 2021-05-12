@@ -1,6 +1,6 @@
 import pygame
 
-Tab_matrice = [pygame.image.load("../Texture/Niveaux 1/Bloc_de_terre_1.png") ,pygame.image.load("../Texture/Niveaux 1/ciel.png") , pygame.image.load("../Texture/Niveaux 1/Porte2.png") , pygame.image.load("../Texture/Niveaux 1/test_2.png")]
+Tab_matrice = [pygame.image.load("../Texture/Niveaux 1/Bloc_de_terre_1.png") ,pygame.image.load("../Texture/Niveaux 1/ciel.png") , pygame.image.load("../Texture/Niveaux 1/Porte.png") , pygame.image.load("../Texture/Pic.png")]
 Taille_di_une_case = 64
 
 def Lecteur_De_Matrice (x_depart, x_arrive,y_depart,y_arrive,matrice,Screen) :
