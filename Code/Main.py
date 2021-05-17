@@ -37,11 +37,13 @@ winning = False
 running = True
 
 
-Level_actuelle = 1
+Level_actuelle = 2
 
 while running:
   matrice = Charger_Level(Level_actuelle)
   J1 = Joueur(Point(128, 128), 0.04, Point(0, 0))
+  if Level_actuelle == 2 :
+    J1 = Joueur(Point(64,500), 0.04, Point(0, 0))
   #boucle tant que cette condition est vraie (running)
   while running :
     #récupère un morceaux de la colonne de la matrice dans lequelle le joueur est entrain de tomber
@@ -57,7 +59,7 @@ while running:
       if J1.Velocite.y!=0:
         y_Block = tranche.index(3)
         J1.Velocite.y = ((J1.Pied().y // 64 + y_Block) * 64) - J1.Pied().y
-        J1 = Joueur(Point(128,128),0.04)
+        J1 = Joueur(Point(64,500),0.04)
     tranche_Haut = [matrice[i][int(J1.Tete().x // 64)] for i in range(int(J1.Tete().y // 64),int((J1.Tete().y + J1.Velocite.y) // 64)-1,-1)]
     if J1.Velocite.y < 0 and 0 in tranche_Haut:
       #J1.Velocite.y = 0
