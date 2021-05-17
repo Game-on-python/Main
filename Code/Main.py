@@ -37,7 +37,7 @@ winning = False
 running = True
 
 
-Level_actuelle = 0
+Level_actuelle = 1
 
 while running:
   matrice = Charger_Level(Level_actuelle)
