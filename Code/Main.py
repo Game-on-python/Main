@@ -59,7 +59,7 @@ while running:
       if J1.Velocite.y!=0:
         y_Block = tranche.index(3)
         J1.Velocite.y = ((J1.Pied().y // 64 + y_Block) * 64) - J1.Pied().y
-        J1 = Joueur(Point(64,500),0.04)
+        J1 = Joueur(Point(128,128),0.04)
     tranche_Haut = [matrice[i][int(J1.Tete().x // 64)] for i in range(int(J1.Tete().y // 64),int((J1.Tete().y + J1.Velocite.y) // 64)-1,-1)]
     if J1.Velocite.y < 0 and 0 in tranche_Haut:
       #J1.Velocite.y = 0
