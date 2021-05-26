@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Texture\Joueur" />
       <recent name="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Texture\Niveaux 1" />
     </key>
   </component>
@@ -162,8 +167,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Level_2" />
         <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.Level_2" />
         <item itemvalue="Python.Level_0 (1)" />
         <item itemvalue="Python.Level_0" />
       </list>
@@ -211,22 +216,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1621426648281">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1621504965075">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621426648281" />
-    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1621426648281">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1621504965075">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621426648281" />
-    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1621426648281">
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1621504965074">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621426648281" />
-    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1621426648281">
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621504965074" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1621504965075">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621426648281" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
     <state width="1515" height="276" key="GridCell.Tab.1.bottom" timestamp="1620818626586">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
