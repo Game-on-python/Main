@@ -20,11 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
+      <change afterPath="$PROJECT_DIR$/Code/Level_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Texture/Menu/Test_Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Texture/Menu/fleche_quitter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Level_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Level_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Level_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texture/Menu/Bouton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texture/Menu/Button_Start .png" beforeDir="false" afterPath="$PROJECT_DIR$/Texture/Menu/Button_Start.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,27 +78,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/Level_0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Level_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Main" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\degru\Desktop\Cartable (2020-2021)\NSI\Projet jeux de platforme\Main\Code\Level_0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,13 +149,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Texture/Menu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Texture/Menu/Test_Menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.Test_Menu" />
         <item itemvalue="Python.Level_2" />
         <item itemvalue="Python.Level_0 (1)" />
-        <item itemvalue="Python.Level_0" />
       </list>
     </recent_temporary>
   </component>
@@ -216,22 +222,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1615372252314" />
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1621504965075">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1622281101629">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
-    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1621504965075">
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622281101629" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1622281101628">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
-    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1621504965074">
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622281101628" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1622281101628">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621504965074" />
-    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1621504965075">
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622281101628" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1622281101629">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621504965075" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622281101629" />
     <state width="1515" height="276" key="GridCell.Tab.1.bottom" timestamp="1620818626586">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -248,6 +254,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620818626586" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1622271911431">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1622271911431" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616668990411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -4,12 +4,12 @@ from Code.Lecteur_De_Matrice import Lecteur_De_Matrice
 from Code.Point import Point
 from Code.Fonction import *
 from Code.Selecteur_de_niveaux import *
-
+from Code.Menu import *
 
 
 
 pygame.init()
-
+menus()
 
 
 # Code RGB du noir et du blanc
@@ -37,7 +37,7 @@ winning = False
 running = True
 
 
-Level_actuelle = 3
+Level_actuelle = 0
 
 while running:
   matrice = Charger_Level(Level_actuelle)
@@ -108,9 +108,17 @@ while running:
     running = True
     winning = False
     Level_actuelle +=1
-  if Level_actuelle > 3:
+  if Level_actuelle > 1:
     running = False
     winning = True
+if winning:
+  i=0
+  while i<300:
+    screen.fill(BLUE)
+    #screen.blit(pygame.image.load([mettre le chemin de l'image en question],(0,0))
+    pygame.display.flip()
+    i+=1
+    clock.tick(60)
 
 
 
