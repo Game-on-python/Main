@@ -12,7 +12,7 @@ pygame.init()
 icon = pygame.image.load("../Texture/Menu/Logo.png")
 pygame.display.set_icon(icon)
 menus()
-
+time = 0
 
 # Code RGB du noir et du blanc
 BLUE = (60, 60, 255)
@@ -105,7 +105,11 @@ while running:
     pygame.display.flip()
     # --- limité à 60 ‘cadres’ par seconde
     clock.tick(60)
-  #si winning est égale à True
+    if time >= 10:
+      # ferme la fenetre
+      running = False
+      # remet le joueur au point de départ
+      # J1 = Joueur(Point(128,128),0.04)
   if winning:
     running = True
     winning = False
