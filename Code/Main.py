@@ -9,6 +9,8 @@ from Code.Menu import *
 
 
 pygame.init()
+icon = pygame.image.load("../Texture/Menu/Logo.png")
+pygame.display.set_icon(icon)
 menus()
 
 
@@ -108,17 +110,18 @@ while running:
     running = True
     winning = False
     Level_actuelle +=1
-  if Level_actuelle > 1:
+  if Level_actuelle > 3:
     running = False
     winning = True
 if winning:
   i=0
   while i<300:
     screen.fill(BLUE)
-    #screen.blit(pygame.image.load([mettre le chemin de l'image en question],(0,0))
+    screen.blit(pygame.image.load("../Texture/Menu/Win_screen.png"), (0, 0))
     pygame.display.flip()
     i+=1
     clock.tick(60)
+
 
 
 
