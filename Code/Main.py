@@ -1,20 +1,30 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+import sys
+import os
+if os.getcwd()[-4:] != "Code":
+    try:
+        os.chdir("Code")
+    except:
+        raise SystemExit("pas dans le bon dossier")
+    
 from math import floor
 
 import pygame
-from Code.Joueur import Joueur
-from Code.Lecteur_De_Matrice import Lecteur_De_Matrice
-from Code.Point import Point
-from Code.Fonction import *
-from Code.Selecteur_de_niveaux import *
-from Code.Menu import *
+from Joueur import Joueur
+from Lecteur_De_Matrice import Lecteur_De_Matrice
+from Point import Point
+from Fonction import *
+from Selecteur_de_niveaux import *
+from Menu import *
 import time as ti;
 import json
-import pkg_resources.py2_warn
 
 pygame.init()
 icon = pygame.image.load("../Texture/Menu/Logo.png")
 pygame.display.set_icon(icon)
-menus()
+if __name__ == '__main__' and not sys.argv[-1] == "--no_menu":
+    menus()
 time = 0
 
 times = 0
@@ -24,6 +34,7 @@ imgnbr = 0
 # Code RGB du noir et du blanc
 BLUE = (60, 60, 255)
 WHITE = (255, 255, 255)
+screen_color = pygame.Color(0,0,0)
 # Taille de l'écran
 SIZE = (1280, 720)
 # l'horloge est utilisée pour le contrôle de la vitesse de rafraîchissement de l’écran
@@ -85,22 +96,28 @@ while running:
         # si user ferme la fenetre
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
-            if keys[pygame.K_a]:
+            if keys[pygame.K_q] or keys[pygame.K_RIGHT]:
                 J1.Bouger_Joueur(Direction_Gauche=True)
                 Sprite_J1 = Sprite_Gauche
-            if keys[pygame.K_d]:
+            if keys[pygame.K_d]or keys[pygame.K_LEFT]:
                 J1.Bouger_Joueur(Direction_Gauche=False)
                 Sprite_J1 = Sprite_Droite
             if keys[pygame.K_SPACE]:
                 if 0 in tranche:
                     J1.Sauter()
 
-            if not keys[pygame.K_a] and not keys[pygame.K_d]:
+            if keys[pygame.K_RETURN]:
+                import restart
+                pygame.quit()
+                raise SystemExit()
+
+            if not keys[pygame.K_q] and not keys[pygame.K_RIGHT] and not keys[pygame.K_d] and not keys[pygame.K_LEFT]:
                 J1.Velocite.x = 0
             # que l'event est fermeture de la fenetre
             if event.type == pygame.QUIT:
                 running = False
                 print("Fermeture du jeu")
+                pygame.quit()
         tranche_Gauche = [matrice[i][int(J1.collision_Haut_Gauche().x // 64):int(
             (J1.collision_Haut_Gauche().x + J1.Velocite.x) // 64) + 1] for i in
                           range(int(J1.collision_Haut_Gauche().y // 64), int(J1.collision_Bas_Gauche().y // 64) + 1)]
@@ -118,7 +135,11 @@ while running:
             running = False
             winning = True
         # affichage de la matrice et du
-        screen.fill(BLUE)
+        if screen_color.hsva[0]+1 < 360:
+            screen_color.hsva =  (screen_color.hsva[0]+1,100,100,100)
+        else:
+            screen_color.hsva =  (0,100,100,100)
+        screen.fill(screen_color) # pour ne pas avoir l'ecran RGB mettre une autre valeur a la place de screen_color
         Lecteur_De_Matrice(0, 20, 0, 20, matrice, screen)
         screen.blit(Sprite_J1, (int(J1.Position.x), int(J1.Position.y)))
         # --- ‘update’ l’écran avec le dessin des lignes
@@ -159,18 +180,18 @@ if winning:
 
         myfont = pygame.font.SysFont('Comic Sans MC', 35)
         img = myfont.render('Temps : ' + str(times) + ' secondes', True, (50, 50, 50))
-        screen.blit(img, (850, 305));
+        screen.blit(img, (850, 305))
 
-        with open('record.json') as json_file:
-            data = json.load(json_file)
-            for p in data['record']:
-                record = p['record']
+        try:
+            with open('record.json') as json_file:
+                data = json.load(json_file)
+                record = data['record']
+        except:
+            record = -1
 
-        if record > times:
-            data = {'record': []}
-            data['record'].append({'record': times})
+        if record > times or record == -1:
             with open('record.json', 'w') as outfile:
-                json.dump(data, outfile)
+                outfile.write(json.dumps({"record":times}))
             record = times
 
         myfont = pygame.font.SysFont('Comic Sans MC', 35)

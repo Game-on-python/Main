@@ -1,5 +1,5 @@
 import pygame
-from Code.Point import Point
+from Point import Point
 
 class Bouton:
     def __init__(self,Position,largeur,hauteur,fonction,image):
@@ -40,6 +40,7 @@ def credit():
             if event.type == pygame.QUIT:
                 running_2 = True
                 print("Fermeture du jeu")
+                pygame.quit()
         # affichage de la matrice et du
         screen.fill(BLUE)
         screen.blit(pygame.image.load("../Texture/Menu/credit_menu.png"),(0,0))
@@ -80,6 +81,7 @@ def menus():
             if event.type == pygame.QUIT:
                 running_1 = True
                 print("Fermeture du jeu")
+                pygame.quit()
         # affichage de la matrice et du
         screen.fill(BLUE)
         #screen.blit(fond,(0,0))
