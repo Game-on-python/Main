@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="19a6d2c6-6302-45a9-84e8-4b5f05bce8fa" name="Default Changelist" comment="Elganto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Joueur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Joueur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Level_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Level_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/record.json" beforeDir="false" afterPath="$PROJECT_DIR$/Code/record.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,10 +165,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.Level_2" />
+      <item itemvalue="Python.Main (1)" />
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.Menu" />
       <item itemvalue="Python.Test_Menu" />
-      <item itemvalue="Python.Main (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -221,22 +222,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1622628097153" />
-    <state width="1515" height="173" key="GridCell.Tab.0.bottom" timestamp="1622709245390">
+    <state width="1515" height="172" key="GridCell.Tab.0.bottom" timestamp="1622795143271">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622709245390" />
-    <state width="1515" height="173" key="GridCell.Tab.0.center" timestamp="1622709245390">
+    <state width="1515" height="172" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622795143271" />
+    <state width="1515" height="172" key="GridCell.Tab.0.center" timestamp="1622795143271">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622709245390" />
-    <state width="1515" height="173" key="GridCell.Tab.0.left" timestamp="1622709245390">
+    <state width="1515" height="172" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622795143271" />
+    <state width="1515" height="172" key="GridCell.Tab.0.left" timestamp="1622795143271">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622709245390" />
-    <state width="1515" height="173" key="GridCell.Tab.0.right" timestamp="1622709245390">
+    <state width="1515" height="172" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622795143271" />
+    <state width="1515" height="172" key="GridCell.Tab.0.right" timestamp="1622795143271">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622709245390" />
+    <state width="1515" height="172" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622795143271" />
     <state width="1515" height="276" key="GridCell.Tab.1.bottom" timestamp="1622628147863">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -269,5 +270,15 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616668744762" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Code/Level_3.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

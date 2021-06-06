@@ -30,7 +30,11 @@ SIZE = (1280, 720)
 clock = pygame.time.Clock()
 
 # apparition du personnage
-Sprite_J1 = pygame.image.load('../Texture/Joueur/Heros_vue_de_cote.png')
+Sprite_Droite = pygame.image.load('../Texture/Joueur/Heros_vue_de_cote.png')
+Sprite_Gauche = pygame.image.load('../Texture/Joueur/Heros_vue_de_cote_gauche.png')
+
+Sprite_J1 = Sprite_Droite
+
 # Création d'une fenêtre à la taille choisie
 pygame.display.set_caption("Pixel Run")
 screen = pygame.display.set_mode(SIZE)
@@ -45,6 +49,8 @@ mono = floor(ti.time())
 
 pygame.font.init()
 myfont = pygame.font.SysFont('Comic Sans MC', 25)
+
+
 
 while running:
 
@@ -81,8 +87,10 @@ while running:
             keys = pygame.key.get_pressed()
             if keys[pygame.K_a]:
                 J1.Bouger_Joueur(Direction_Gauche=True)
+                Sprite_J1 = Sprite_Gauche
             if keys[pygame.K_d]:
                 J1.Bouger_Joueur(Direction_Gauche=False)
+                Sprite_J1 = Sprite_Droite
             if keys[pygame.K_SPACE]:
                 if 0 in tranche:
                     J1.Sauter()
@@ -172,5 +180,6 @@ if winning:
         pygame.display.flip()
         i += 1
         clock.tick(60)
+
 
 pygame.quit()
