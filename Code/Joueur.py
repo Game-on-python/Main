@@ -1,5 +1,5 @@
-from Code.Objet_Physique import Objet_Physique
-from Code.Point import Point
+from Objet_Physique import Objet_Physique
+from Point import Point
 
 
 # la classe Joueur hérite de la classe Objet_Physique et hérite donc des méthodes

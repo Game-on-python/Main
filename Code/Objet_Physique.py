@@ -1,4 +1,4 @@
-from Code.Point import Point
+from Point import Point
 
 class Objet_Physique:
     #constante modifiable
