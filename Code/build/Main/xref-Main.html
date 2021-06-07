@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for Main.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py</title>
+    <title>modulegraph cross reference for Main.py, pyi_rth__tkinter.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for Main.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py</h1>
+    <h1>modulegraph cross reference for Main.py, pyi_rth__tkinter.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py</h1>
 
 <div class="node">
   <a name="Main.py"></a>
@@ -165,8 +165,8 @@ imports:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#math">math</a>
  &#8226;   <a href="#operator">operator</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pygame">pygame</a>
+ &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
  &#8226;   <a href="#re">re</a>
@@ -185,13 +185,30 @@ imports:
 </div>
 
 <div class="node">
-  <a name="pyi_rth_multiprocessing.py"></a>
-  <a target="code" href="///C:/Users/degru/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py" type="text/plain"><tt>pyi_rth_multiprocessing.py</tt></a>
+  <a name="pyi_rth__tkinter.py"></a>
+  <a target="code" href="///C:/Users/degru/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth__tkinter.py" type="text/plain"><tt>pyi_rth__tkinter.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
-    <a href="#multiprocessing">multiprocessing</a>
+    <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#Main.py">Main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_multiprocessing.py"></a>
+  <a target="code" href="///C:/Users/degru/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py" type="text/plain"><tt>pyi_rth_multiprocessing.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#'multiprocessing.forking'">'multiprocessing.forking'</a>
+ &#8226;   <a href="#multiprocessing">multiprocessing</a>
  &#8226;   <a href="#multiprocessing.popen_fork">multiprocessing.popen_fork</a>
- &#8226;   <a href="#multiprocessing.popen_spawn_posix">multiprocessing.popen_spawn_posix</a>
  &#8226;   <a href="#multiprocessing.popen_spawn_win32">multiprocessing.popen_spawn_win32</a>
  &#8226;   <a href="#multiprocessing.spawn">multiprocessing.spawn</a>
  &#8226;   <a href="#os">os</a>
@@ -210,14 +227,11 @@ imported by:
 
 <div class="node">
   <a name="pyi_rth_pkgres.py"></a>
-  <a target="code" href="///C:/Users/degru/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py" type="text/plain"><tt>pyi_rth_pkgres.py</tt></a>
+  <a target="code" href="///C:/Users/degru/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/PyInstaller/loader/rthooks/pyi_rth_pkgres.py" type="text/plain"><tt>pyi_rth_pkgres.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
-    <a href="#os">os</a>
- &#8226;   <a href="#pathlib">pathlib</a>
- &#8226;   <a href="#pkg_resources">pkg_resources</a>
+    <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pyimod03_importers">pyimod03_importers</a>
- &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
@@ -307,11 +321,22 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="'multiprocessing.forking'"></a>
+  <a target="code" href="" type="text/plain"><tt>'multiprocessing.forking'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="'org.python'"></a>
   <a target="code" href="" type="text/plain"><tt>'org.python'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#copy">copy</a>
+    <a href="#pickle">pickle</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
 
@@ -371,17 +396,6 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#'setuptools._vendor.six.moves'">'setuptools._vendor.six.moves'</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'win32com.shell'"></a>
-  <a target="code" href="" type="text/plain"><tt>'win32com.shell'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
 
   </div>
 
@@ -462,7 +476,13 @@ imported by:
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/__future__.py" type="text/plain"><tt>__future__</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imported by:
-    <a href="#codeop">codeop</a>
+    <a href="#PyInstaller.building.build_main">PyInstaller.building.build_main</a>
+ &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
+ &#8226;   <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.find_modules">PyInstaller.lib.modulegraph.find_modules</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
+ &#8226;   <a href="#codeop">codeop</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#ordlookup">ordlookup</a>
  &#8226;   <a href="#pefile">pefile</a>
@@ -490,14 +510,6 @@ imported by:
  &#8226;   <a href="#setuptools._vendor.six">setuptools._vendor.six</a>
  &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
- &#8226;   <a href="#win32ctypes.core.cffi._authentication">win32ctypes.core.cffi._authentication</a>
- &#8226;   <a href="#win32ctypes.core.cffi._common">win32ctypes.core.cffi._common</a>
- &#8226;   <a href="#win32ctypes.core.cffi._dll">win32ctypes.core.cffi._dll</a>
- &#8226;   <a href="#win32ctypes.core.cffi._nl_support">win32ctypes.core.cffi._nl_support</a>
- &#8226;   <a href="#win32ctypes.core.cffi._resource">win32ctypes.core.cffi._resource</a>
- &#8226;   <a href="#win32ctypes.core.cffi._system_information">win32ctypes.core.cffi._system_information</a>
- &#8226;   <a href="#win32ctypes.core.cffi._time">win32ctypes.core.cffi._time</a>
- &#8226;   <a href="#win32ctypes.core.cffi._util">win32ctypes.core.cffi._util</a>
  &#8226;   <a href="#win32ctypes.pywin32">win32ctypes.pywin32</a>
  &#8226;   <a href="#win32ctypes.pywin32.pywintypes">win32ctypes.pywin32.pywintypes</a>
  &#8226;   <a href="#win32ctypes.pywin32.win32api">win32ctypes.pywin32.win32api</a>
@@ -1334,6 +1346,16 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_testcapi"></a>
+  <tt>_testcapi</tt> <span class="moduletype"><tt>c:\users\degru\appdata\local\programs\python\python38-32\DLLs\_testcapi.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_thread"></a>
   <tt>_thread</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -1366,6 +1388,16 @@ imports:
   <div class="import">
 imported by:
     <a href="#threading">threading</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_tkinter"></a>
+  <tt>_tkinter</tt> <span class="moduletype"><tt>c:\users\degru\appdata\local\programs\python\python38-32\DLLs\_tkinter.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#tkinter">tkinter</a>
 
   </div>
 
@@ -1528,6 +1560,7 @@ imported by:
  &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#nntplib">nntplib</a>
+ &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tokenize">tokenize</a>
  &#8226;   <a href="#unittest.main">unittest.main</a>
@@ -1541,9 +1574,7 @@ imported by:
   <a name="array"></a>
   <tt>array</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.ImagePalette">PIL.ImagePalette</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#multiprocessing.dummy">multiprocessing.dummy</a>
+    <a href="#multiprocessing.dummy">multiprocessing.dummy</a>
  &#8226;   <a href="#multiprocessing.managers">multiprocessing.managers</a>
  &#8226;   <a href="#multiprocessing.reduction">multiprocessing.reduction</a>
  &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
@@ -1566,8 +1597,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
- &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
+    <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#inspect">inspect</a>
 
   </div>
@@ -2423,8 +2453,7 @@ imported by:
   <a name="atexit"></a>
   <tt>atexit</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
+    <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#multiprocessing.util">multiprocessing.util</a>
@@ -2536,7 +2565,7 @@ imported by:
   <a name="builtins"></a>
   <tt>builtins</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#builtins">builtins</a>
  &#8226;   <a href="#bz2">bz2</a>
  &#8226;   <a href="#codecs">codecs</a>
@@ -2634,8 +2663,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#_strptime">_strptime</a>
+    <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#email._parseaddr">email._parseaddr</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#ssl">ssl</a>
@@ -2696,7 +2724,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.utils.misc">PyInstaller.utils.misc</a>
  &#8226;   <a href="#PyInstaller.utils.win32.versioninfo">PyInstaller.utils.win32.versioninfo</a>
@@ -2864,6 +2891,7 @@ imports:
  &#8226;   <a href="#collections.MutableMapping">collections.MutableMapping</a>
  &#8226;   <a href="#collections.MutableSet">collections.MutableSet</a>
  &#8226;   <a href="#collections.Sequence">collections.Sequence</a>
+ &#8226;   <a href="#collections.Set">collections.Set</a>
  &#8226;   <a href="#copy">copy</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#itertools">itertools</a>
@@ -2877,14 +2905,9 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#PIL.TiffTags">PIL.TiffTags</a>
- &#8226;   <a href="#PIL.features">PIL.features</a>
- &#8226;   <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
+ &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#PyInstaller.depend.bindepend">PyInstaller.depend.bindepend</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
- &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#altgraph.Graph">altgraph.Graph</a>
  &#8226;   <a href="#altgraph.GraphUtil">altgraph.GraphUtil</a>
@@ -3004,8 +3027,21 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>collections.Sequence</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#collections">collections</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
+ &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="collections.Set"></a>
+  <a target="code" href="" type="text/plain"><tt>collections.Set</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
+ &#8226;   <a href="#collections">collections</a>
 
   </div>
 
@@ -3023,8 +3059,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
+ &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
  &#8226;   <a href="#cgi">cgi</a>
@@ -3212,7 +3247,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#_osx_support">_osx_support</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
+ &#8226;   <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#_threading_local">_threading_local</a>
  &#8226;   <a href="#asyncio.staggered">asyncio.staggered</a>
  &#8226;   <a href="#distutils.command.build_ext">distutils.command.build_ext</a>
@@ -3263,16 +3299,15 @@ imported by:
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/copy.py" type="text/plain"><tt>copy</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'org.python'">'org.python'</a>
- &#8226;   <a href="#copyreg">copyreg</a>
+    <a href="#copyreg">copyreg</a>
+ &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#weakref">weakref</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.GifImagePlugin">PIL.GifImagePlugin</a>
- &#8226;   <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
+    <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
  &#8226;   <a href="#_sre">_sre</a>
  &#8226;   <a href="#argparse">argparse</a>
@@ -3359,7 +3394,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ctypes._aix">ctypes._aix</a>
+    <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
+ &#8226;   <a href="#ctypes._aix">ctypes._aix</a>
  &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
  &#8226;   <a href="#ctypes.macholib">ctypes.macholib</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
@@ -3515,6 +3551,22 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="ctypes.wintypes"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/ctypes/wintypes.py" type="text/plain"><tt>ctypes.wintypes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="datetime"></a>
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/datetime.py" type="text/plain"><tt>datetime</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -3557,8 +3609,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#fractions">fractions</a>
- &#8226;   <a href="#test.support">test.support</a>
+    <a href="#test.support">test.support</a>
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
 
   </div>
@@ -3572,6 +3623,7 @@ imported by:
 imports:
     <a href="#collections">collections</a>
  &#8226;   <a href="#difflib">difflib</a>
+ &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#re">re</a>
 
@@ -3601,8 +3653,9 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.depend.bytecode">PyInstaller.depend.bytecode</a>
+    <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph._compat">PyInstaller.lib.modulegraph._compat</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#setuptools.py33compat">setuptools.py33compat</a>
@@ -4086,6 +4139,7 @@ imports:
  &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
  &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pwd">pwd</a>
  &#8226;   <a href="#py_compile">py_compile</a>
@@ -4147,7 +4201,9 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#difflib">difflib</a>
+ &#8226;   <a href="#heapq">heapq</a>
+ &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#test.support">test.support</a>
 
   </div>
@@ -7223,6 +7279,16 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="faulthandler"></a>
+  <tt>faulthandler</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="fnmatch"></a>
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/fnmatch.py" type="text/plain"><tt>fnmatch</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -7235,8 +7301,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
- &#8226;   <a href="#bdb">bdb</a>
+    <a href="#bdb">bdb</a>
  &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#pathlib">pathlib</a>
@@ -7293,7 +7358,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.ImageFilter">PIL.ImageFilter</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
  &#8226;   <a href="#asyncio.format_helpers">asyncio.format_helpers</a>
@@ -7474,6 +7538,7 @@ imported by:
  &#8226;   <a href="#PyInstaller.depend.bindepend">PyInstaller.depend.bindepend</a>
  &#8226;   <a href="#PyInstaller.depend.imphook">PyInstaller.depend.imphook</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.qt">PyInstaller.utils.hooks.qt</a>
  &#8226;   <a href="#PyInstaller.utils.misc">PyInstaller.utils.misc</a>
  &#8226;   <a href="#PyInstaller.utils.win32.winmanifest">PyInstaller.utils.win32.winmanifest</a>
  &#8226;   <a href="#distutils._msvccompiler">distutils._msvccompiler</a>
@@ -7569,6 +7634,7 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#_heapq">_heapq</a>
+ &#8226;   <a href="#doctest">doctest</a>
 
   </div>
   <div class="import">
@@ -7798,9 +7864,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.lib.modulegraph.find_modules">PyInstaller.lib.modulegraph.find_modules</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.find_modules">PyInstaller.lib.modulegraph.find_modules</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
+ &#8226;   <a href="#PyInstaller.loader.pyimod02_archive">PyInstaller.loader.pyimod02_archive</a>
  &#8226;   <a href="#cffi.vengine_cpy">cffi.vengine_cpy</a>
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
@@ -7830,7 +7898,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.building.splash">PyInstaller.building.splash</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
@@ -7885,8 +7953,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
- &#8226;   <a href="#imp">imp</a>
+    <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
@@ -7984,8 +8051,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
- &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+    <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
 
   </div>
 
@@ -8089,27 +8155,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.BlpImagePlugin">PIL.BlpImagePlugin</a>
- &#8226;   <a href="#PIL.DdsImagePlugin">PIL.DdsImagePlugin</a>
- &#8226;   <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.FtexImagePlugin">PIL.FtexImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.IcoImagePlugin">PIL.IcoImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageFile">PIL.ImageFile</a>
- &#8226;   <a href="#PIL.ImageQt">PIL.ImageQt</a>
- &#8226;   <a href="#PIL.ImageTk">PIL.ImageTk</a>
- &#8226;   <a href="#PIL.IptcImagePlugin">PIL.IptcImagePlugin</a>
- &#8226;   <a href="#PIL.Jpeg2KImagePlugin">PIL.Jpeg2KImagePlugin</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PIL.MspImagePlugin">PIL.MspImagePlugin</a>
- &#8226;   <a href="#PIL.PcxImagePlugin">PIL.PcxImagePlugin</a>
- &#8226;   <a href="#PIL.PdfImagePlugin">PIL.PdfImagePlugin</a>
- &#8226;   <a href="#PIL.PsdImagePlugin">PIL.PsdImagePlugin</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#PIL.WebPImagePlugin">PIL.WebPImagePlugin</a>
- &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
- &#8226;   <a href="#PyInstaller.building.splash">PyInstaller.building.splash</a>
+ &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph._compat">PyInstaller.lib.modulegraph._compat</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.zipio">PyInstaller.lib.modulegraph.zipio</a>
@@ -8198,10 +8244,7 @@ imported by:
   <a name="itertools"></a>
   <tt>itertools</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.GifImagePlugin">PIL.GifImagePlugin</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#_pydecimal">_pydecimal</a>
+    <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.tasks">asyncio.tasks</a>
  &#8226;   <a href="#asyncio.unix_events">asyncio.unix_events</a>
@@ -8275,7 +8318,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.qt">PyInstaller.utils.hooks.qt</a>
  &#8226;   <a href="#distutils._msvccompiler">distutils._msvccompiler</a>
  &#8226;   <a href="#json.decoder">json.decoder</a>
  &#8226;   <a href="#json.encoder">json.encoder</a>
@@ -8356,6 +8399,405 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="lib2to3"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/__init__.py" type="text/plain"><tt>lib2to3</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+ &#8226;   <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.btm_matcher"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/btm_matcher.py" type="text/plain"><tt>lib2to3.btm_matcher</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+ &#8226;   <a href="#logging">logging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.btm_utils"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/btm_utils.py" type="text/plain"><tt>lib2to3.btm_utils</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.fixer_util"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/fixer_util.py" type="text/plain"><tt>lib2to3.fixer_util</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.patcomp"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/patcomp.py" type="text/plain"><tt>lib2to3.patcomp</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.literals">lib2to3.pgen2.literals</a>
+ &#8226;   <a href="#lib2to3.pgen2.parse">lib2to3.pgen2.parse</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/__init__.py" type="text/plain"><tt>lib2to3.pgen2</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.literals">lib2to3.pgen2.literals</a>
+ &#8226;   <a href="#lib2to3.pgen2.parse">lib2to3.pgen2.parse</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.literals">lib2to3.pgen2.literals</a>
+ &#8226;   <a href="#lib2to3.pgen2.parse">lib2to3.pgen2.parse</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.driver"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/driver.py" type="text/plain"><tt>lib2to3.pgen2.driver</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.parse">lib2to3.pgen2.parse</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.grammar"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/grammar.py" type="text/plain"><tt>lib2to3.pgen2.grammar</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pprint">pprint</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.literals"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/literals.py" type="text/plain"><tt>lib2to3.pgen2.literals</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.parse"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/parse.py" type="text/plain"><tt>lib2to3.pgen2.parse</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.pgen"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/pgen.py" type="text/plain"><tt>lib2to3.pgen2.pgen</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.token"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/token.py" type="text/plain"><tt>lib2to3.pgen2.token</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.grammar">lib2to3.pgen2.grammar</a>
+ &#8226;   <a href="#lib2to3.pgen2.parse">lib2to3.pgen2.parse</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pgen2.tokenize"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pgen2/tokenize.py" type="text/plain"><tt>lib2to3.pgen2.tokenize</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#codecs">codecs</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.pgen">lib2to3.pgen2.pgen</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pygram"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pygram.py" type="text/plain"><tt>lib2to3.pygram</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+ &#8226;   <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.pytree"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/pytree.py" type="text/plain"><tt>lib2to3.pytree</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+ &#8226;   <a href="#lib2to3.btm_utils">lib2to3.btm_utils</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.patcomp">lib2to3.patcomp</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="lib2to3.refactor"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/lib2to3/refactor.py" type="text/plain"><tt>lib2to3.refactor</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#lib2to3">lib2to3</a>
+ &#8226;   <a href="#lib2to3.btm_matcher">lib2to3.btm_matcher</a>
+ &#8226;   <a href="#lib2to3.fixer_util">lib2to3.fixer_util</a>
+ &#8226;   <a href="#lib2to3.pgen2">lib2to3.pgen2</a>
+ &#8226;   <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.pgen2.token">lib2to3.pgen2.token</a>
+ &#8226;   <a href="#lib2to3.pgen2.tokenize">lib2to3.pgen2.tokenize</a>
+ &#8226;   <a href="#lib2to3.pygram">lib2to3.pygram</a>
+ &#8226;   <a href="#lib2to3.pytree">lib2to3.pytree</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#multiprocessing">multiprocessing</a>
+ &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="linecache"></a>
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/linecache.py" type="text/plain"><tt>linecache</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -8404,7 +8846,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.tcl_tk">PyInstaller.utils.hooks.tcl_tk</a>
  &#8226;   <a href="#_bootlocale">_bootlocale</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#_strptime">_strptime</a>
@@ -8440,12 +8881,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.PcxImagePlugin">PIL.PcxImagePlugin</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PIL.PyAccess">PIL.PyAccess</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#PyInstaller.log">PyInstaller.log</a>
+    <a href="#PyInstaller.log">PyInstaller.log</a>
  &#8226;   <a href="#asyncio.futures">asyncio.futures</a>
  &#8226;   <a href="#asyncio.log">asyncio.log</a>
  &#8226;   <a href="#concurrent.futures._base">concurrent.futures._base</a>
@@ -8457,6 +8893,40 @@ imported by:
  &#8226;   <a href="#logging.handlers">logging.handlers</a>
  &#8226;   <a href="#multiprocessing.util">multiprocessing.util</a>
  &#8226;   <a href="#unittest.case">unittest.case</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="logging.handlers"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/logging/handlers.py" type="text/plain"><tt>logging.handlers</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#base64">base64</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#queue">queue</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#stat">stat</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#win32evtlog">win32evtlog</a>
+ &#8226;   <a href="#win32evtlogutil">win32evtlogutil</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
 
   </div>
 
@@ -8508,14 +8978,9 @@ imported by:
   <tt>math</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.GifImagePlugin">PIL.GifImagePlugin</a>
- &#8226;   <a href="#PIL.GimpGradientFile">PIL.GimpGradientFile</a>
- &#8226;   <a href="#PIL.IcoImagePlugin">PIL.IcoImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#asyncio.windows_events">asyncio.windows_events</a>
  &#8226;   <a href="#datetime">datetime</a>
- &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#pefile">pefile</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#selectors">selectors</a>
@@ -8550,9 +9015,7 @@ imported by:
   <a name="mmap"></a>
   <tt>mmap</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.ImageFile">PIL.ImageFile</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#multiprocessing.heap">multiprocessing.heap</a>
+    <a href="#multiprocessing.heap">multiprocessing.heap</a>
  &#8226;   <a href="#multiprocessing.shared_memory">multiprocessing.shared_memory</a>
  &#8226;   <a href="#pefile">pefile</a>
 
@@ -9020,7 +9483,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#multiprocessing.context">multiprocessing.context</a>
- &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
 
   </div>
 
@@ -9344,6 +9806,8 @@ imports:
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#test">test</a>
+ &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#weakref">weakref</a>
@@ -9399,6 +9863,31 @@ imports:
 imported by:
     <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#nntplib">nntplib</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="nntplib"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/nntplib.py" type="text/plain"><tt>nntplib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#argparse">argparse</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#email.header">email.header</a>
+ &#8226;   <a href="#netrc">netrc</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
 
   </div>
 
@@ -9502,10 +9991,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#_pydecimal">_pydecimal</a>
- &#8226;   <a href="#fractions">fractions</a>
+    <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
 
   </div>
@@ -9520,6 +10006,7 @@ imported by:
     <a href="#pygame">pygame</a>
  &#8226;   <a href="#pygame._numpysndarray">pygame._numpysndarray</a>
  &#8226;   <a href="#pygame._numpysurfarray">pygame._numpysurfarray</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
 
   </div>
 
@@ -9558,7 +10045,6 @@ imported by:
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#distutils.versionpredicate">distutils.versionpredicate</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
- &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
@@ -9612,7 +10098,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>org</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#copy">copy</a>
 
   </div>
 
@@ -9639,23 +10125,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.GifImagePlugin">PIL.GifImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.ImImagePlugin">PIL.ImImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#PIL.IptcImagePlugin">PIL.IptcImagePlugin</a>
- &#8226;   <a href="#PIL.Jpeg2KImagePlugin">PIL.Jpeg2KImagePlugin</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PIL.PdfImagePlugin">PIL.PdfImagePlugin</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#PIL.SgiImagePlugin">PIL.SgiImagePlugin</a>
- &#8226;   <a href="#PIL.SpiderImagePlugin">PIL.SpiderImagePlugin</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#PIL._util">PIL._util</a>
- &#8226;   <a href="#PIL.features">PIL.features</a>
- &#8226;   <a href="#PyInstaller">PyInstaller</a>
+    <a href="#PyInstaller">PyInstaller</a>
  &#8226;   <a href="#PyInstaller.__main__">PyInstaller.__main__</a>
  &#8226;   <a href="#PyInstaller.archive.pyz_crypto">PyInstaller.archive.pyz_crypto</a>
  &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
@@ -9664,7 +10134,6 @@ imported by:
  &#8226;   <a href="#PyInstaller.building.datastruct">PyInstaller.building.datastruct</a>
  &#8226;   <a href="#PyInstaller.building.makespec">PyInstaller.building.makespec</a>
  &#8226;   <a href="#PyInstaller.building.osx">PyInstaller.building.osx</a>
- &#8226;   <a href="#PyInstaller.building.splash">PyInstaller.building.splash</a>
  &#8226;   <a href="#PyInstaller.building.toc_conversion">PyInstaller.building.toc_conversion</a>
  &#8226;   <a href="#PyInstaller.building.utils">PyInstaller.building.utils</a>
  &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
@@ -9679,7 +10148,9 @@ imported by:
  &#8226;   <a href="#PyInstaller.lib.modulegraph.zipio">PyInstaller.lib.modulegraph.zipio</a>
  &#8226;   <a href="#PyInstaller.utils.git">PyInstaller.utils.git</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.tcl_tk">PyInstaller.utils.hooks.tcl_tk</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.django">PyInstaller.utils.hooks.django</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.gi">PyInstaller.utils.hooks.gi</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.qt">PyInstaller.utils.hooks.qt</a>
  &#8226;   <a href="#PyInstaller.utils.misc">PyInstaller.utils.misc</a>
  &#8226;   <a href="#PyInstaller.utils.osx">PyInstaller.utils.osx</a>
  &#8226;   <a href="#PyInstaller.utils.win32.winmanifest">PyInstaller.utils.win32.winmanifest</a>
@@ -9794,8 +10265,8 @@ imported by:
  &#8226;   <a href="#pygame.macosx">pygame.macosx</a>
  &#8226;   <a href="#pygame.pkgdata">pygame.pkgdata</a>
  &#8226;   <a href="#pygame.sysfont">pygame.sysfont</a>
+ &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
- &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#setuptools">setuptools</a>
@@ -9871,12 +10342,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL._util">PIL._util</a>
- &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
- &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
- &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+    <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
@@ -9926,15 +10392,16 @@ imported by:
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/pickle.py" type="text/plain"><tt>pickle</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#_compat_pickle">_compat_pickle</a>
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#_compat_pickle">_compat_pickle</a>
  &#8226;   <a href="#_pickle">_pickle</a>
+ &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
- &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#struct">struct</a>
@@ -9996,7 +10463,6 @@ imports:
  &#8226;   <a href="#pkg_resources.extern.appdirs">pkg_resources.extern.appdirs</a>
  &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
  &#8226;   <a href="#pkg_resources.extern.six">pkg_resources.extern.six</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pkg_resources.py31compat">pkg_resources.py31compat</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
@@ -10018,16 +10484,13 @@ imports:
   <div class="import">
 imported by:
     <a href="#PyInstaller">PyInstaller</a>
- &#8226;   <a href="#PyInstaller.building.build_main">PyInstaller.building.build_main</a>
  &#8226;   <a href="#PyInstaller.building.toc_conversion">PyInstaller.building.toc_conversion</a>
- &#8226;   <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
  &#8226;   <a href="#altgraph">altgraph</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pkg_resources.py31compat">pkg_resources.py31compat</a>
  &#8226;   <a href="#pygame.pkgdata">pygame.pkgdata</a>
  &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
@@ -10075,7 +10538,6 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'com.sun'">'com.sun'</a>
- &#8226;   <a href="#'win32com.shell'">'win32com.shell'</a>
  &#8226;   <a href="#_winreg">_winreg</a>
  &#8226;   <a href="#array">array</a>
  &#8226;   <a href="#com">com</a>
@@ -10085,7 +10547,7 @@ imports:
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#win32api">win32api</a>
- &#8226;   <a href="#win32com">win32com</a>
+ &#8226;   <a href="#win32com.shell">win32com.shell</a>
  &#8226;   <a href="#winreg">winreg</a>
 
   </div>
@@ -10413,26 +10875,6 @@ imported by:
     <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
  &#8226;   <a href="#pkg_resources.py31compat">pkg_resources.py31compat</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="pkg_resources.py2_warn"></a>
-  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/site-packages/pkg_resources/py2_warn.py" type="text/plain"><tt>pkg_resources.py2_warn</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#textwrap">textwrap</a>
- &#8226;   <a href="#warnings">warnings</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -11657,7 +12099,8 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>pyimod03_importers</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+    <a href="#PyInstaller.loader.pyimod02_archive">PyInstaller.loader.pyimod02_archive</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
 
   </div>
 
@@ -11731,8 +12174,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.ImagePalette">PIL.ImagePalette</a>
- &#8226;   <a href="#altgraph.GraphUtil">altgraph.GraphUtil</a>
+    <a href="#altgraph.GraphUtil">altgraph.GraphUtil</a>
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#secrets">secrets</a>
@@ -11761,23 +12203,13 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.GimpPaletteFile">PIL.GimpPaletteFile</a>
- &#8226;   <a href="#PIL.ImImagePlugin">PIL.ImImagePlugin</a>
- &#8226;   <a href="#PIL.ImageColor">PIL.ImageColor</a>
- &#8226;   <a href="#PIL.ImtImagePlugin">PIL.ImtImagePlugin</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PIL.XbmImagePlugin">PIL.XbmImagePlugin</a>
- &#8226;   <a href="#PIL.XpmImagePlugin">PIL.XpmImagePlugin</a>
- &#8226;   <a href="#PyInstaller.building.splash">PyInstaller.building.splash</a>
  &#8226;   <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
  &#8226;   <a href="#PyInstaller.depend.bindepend">PyInstaller.depend.bindepend</a>
- &#8226;   <a href="#PyInstaller.depend.bytecode">PyInstaller.depend.bytecode</a>
  &#8226;   <a href="#PyInstaller.depend.dylib">PyInstaller.depend.dylib</a>
  &#8226;   <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.gi">PyInstaller.utils.hooks.gi</a>
  &#8226;   <a href="#__main__">__main__</a>
  &#8226;   <a href="#_markupbase">_markupbase</a>
  &#8226;   <a href="#_osx_support">_osx_support</a>
@@ -11820,7 +12252,6 @@ imported by:
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#encodings.idna">encodings.idna</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
- &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#glob">glob</a>
@@ -12044,8 +12475,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#netrc">netrc</a>
+    <a href="#netrc">netrc</a>
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
@@ -12079,14 +12509,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#PyInstaller.building.api">PyInstaller.building.api</a>
+    <a href="#PyInstaller.building.api">PyInstaller.building.api</a>
  &#8226;   <a href="#PyInstaller.building.build_main">PyInstaller.building.build_main</a>
  &#8226;   <a href="#PyInstaller.building.osx">PyInstaller.building.osx</a>
  &#8226;   <a href="#PyInstaller.building.utils">PyInstaller.building.utils</a>
- &#8226;   <a href="#PyInstaller.utils.osx">PyInstaller.utils.osx</a>
+ &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
@@ -12133,6 +12560,35 @@ imported by:
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="smtplib"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/smtplib.py" type="text/plain"><tt>smtplib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#base64">base64</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#email.base64mime">email.base64mime</a>
+ &#8226;   <a href="#email.generator">email.generator</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#hmac">hmac</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#logging.handlers">logging.handlers</a>
 
   </div>
 
@@ -12401,26 +12857,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.BlpImagePlugin">PIL.BlpImagePlugin</a>
- &#8226;   <a href="#PIL.DdsImagePlugin">PIL.DdsImagePlugin</a>
- &#8226;   <a href="#PIL.FtexImagePlugin">PIL.FtexImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.IcoImagePlugin">PIL.IcoImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageFile">PIL.ImageFile</a>
- &#8226;   <a href="#PIL.Jpeg2KImagePlugin">PIL.Jpeg2KImagePlugin</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PIL.McIdasImagePlugin">PIL.McIdasImagePlugin</a>
- &#8226;   <a href="#PIL.MspImagePlugin">PIL.MspImagePlugin</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PIL.SgiImagePlugin">PIL.SgiImagePlugin</a>
- &#8226;   <a href="#PIL.SpiderImagePlugin">PIL.SpiderImagePlugin</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#PIL._binary">PIL._binary</a>
- &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
- &#8226;   <a href="#PyInstaller.building.splash">PyInstaller.building.splash</a>
+    <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
  &#8226;   <a href="#PyInstaller.building.utils">PyInstaller.building.utils</a>
  &#8226;   <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
+ &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.loader.pyimod02_archive">PyInstaller.loader.pyimod02_archive</a>
  &#8226;   <a href="#PyInstaller.utils.win32.icon">PyInstaller.utils.win32.icon</a>
  &#8226;   <a href="#PyInstaller.utils.win32.versioninfo">PyInstaller.utils.win32.versioninfo</a>
@@ -12474,13 +12914,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.GifImagePlugin">PIL.GifImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PyInstaller.compat">PyInstaller.compat</a>
+    <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.gi">PyInstaller.utils.hooks.gi</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.qt">PyInstaller.utils.hooks.qt</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.base_subprocess">asyncio.base_subprocess</a>
  &#8226;   <a href="#asyncio.events">asyncio.events</a>
@@ -12516,18 +12953,7 @@ imported by:
   <a name="sys"></a>
   <tt>sys</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL">PIL</a>
- &#8226;   <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageFile">PIL.ImageFile</a>
- &#8226;   <a href="#PIL.ImageQt">PIL.ImageQt</a>
- &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PIL.PyAccess">PIL.PyAccess</a>
- &#8226;   <a href="#PIL.SpiderImagePlugin">PIL.SpiderImagePlugin</a>
- &#8226;   <a href="#PIL.features">PIL.features</a>
- &#8226;   <a href="#PyInstaller">PyInstaller</a>
+    <a href="#PyInstaller">PyInstaller</a>
  &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
  &#8226;   <a href="#PyInstaller.building.build_main">PyInstaller.building.build_main</a>
  &#8226;   <a href="#PyInstaller.building.makespec">PyInstaller.building.makespec</a>
@@ -12543,7 +12969,7 @@ imported by:
  &#8226;   <a href="#PyInstaller.lib.modulegraph.zipio">PyInstaller.lib.modulegraph.zipio</a>
  &#8226;   <a href="#PyInstaller.loader.pyimod02_archive">PyInstaller.loader.pyimod02_archive</a>
  &#8226;   <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
- &#8226;   <a href="#PyInstaller.utils.hooks.conda">PyInstaller.utils.hooks.conda</a>
+ &#8226;   <a href="#PyInstaller.utils.hooks.qt">PyInstaller.utils.hooks.qt</a>
  &#8226;   <a href="#PyInstaller.utils.misc">PyInstaller.utils.misc</a>
  &#8226;   <a href="#PyInstaller.utils.win32.icon">PyInstaller.utils.win32.icon</a>
  &#8226;   <a href="#PyInstaller.utils.win32.winmanifest">PyInstaller.utils.win32.winmanifest</a>
@@ -12616,7 +13042,6 @@ imported by:
  &#8226;   <a href="#encodings.utf_16">encodings.utf_16</a>
  &#8226;   <a href="#encodings.utf_32">encodings.utf_32</a>
  &#8226;   <a href="#enum">enum</a>
- &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#getopt">getopt</a>
  &#8226;   <a href="#getpass">getpass</a>
@@ -12669,7 +13094,6 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pkg_resources.py31compat">pkg_resources.py31compat</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
@@ -12687,8 +13111,8 @@ imported by:
  &#8226;   <a href="#pygame.pkgdata">pygame.pkgdata</a>
  &#8226;   <a href="#pygame.sysfont">pygame.sysfont</a>
  &#8226;   <a href="#pygame.threads">pygame.threads</a>
+ &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
- &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#selectors">selectors</a>
@@ -12747,7 +13171,6 @@ imported by:
  &#8226;   <a href="#weakref">weakref</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
- &#8226;   <a href="#win32ctypes.core.compat">win32ctypes.core.compat</a>
  &#8226;   <a href="#xml.dom.domreg">xml.dom.domreg</a>
  &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
  &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
@@ -12846,13 +13269,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.EpsImagePlugin">PIL.EpsImagePlugin</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
- &#8226;   <a href="#PIL.IptcImagePlugin">PIL.IptcImagePlugin</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PyInstaller.building.api">PyInstaller.building.api</a>
+    <a href="#PyInstaller.building.api">PyInstaller.building.api</a>
  &#8226;   <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#asyncio.windows_utils">asyncio.windows_utils</a>
  &#8226;   <a href="#cgi">cgi</a>
@@ -12890,6 +13307,125 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="test"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/test/__init__.py" type="text/plain"><tt>test</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#test.support">test.support</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#multiprocessing.util">multiprocessing.util</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="test.support"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/test/support/__init__.py" type="text/plain"><tt>test.support</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#_hashlib">_hashlib</a>
+ &#8226;   <a href="#_testcapi">_testcapi</a>
+ &#8226;   <a href="#_thread">_thread</a>
+ &#8226;   <a href="#_winapi">_winapi</a>
+ &#8226;   <a href="#asyncio.events">asyncio.events</a>
+ &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#ctypes.util">ctypes.util</a>
+ &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#decimal">decimal</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#doctest">doctest</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#faulthandler">faulthandler</a>
+ &#8226;   <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#gc">gc</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#hashlib">hashlib</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#locale">locale</a>
+ &#8226;   <a href="#logging.handlers">logging.handlers</a>
+ &#8226;   <a href="#lzma">lzma</a>
+ &#8226;   <a href="#msvcrt">msvcrt</a>
+ &#8226;   <a href="#multiprocessing.process">multiprocessing.process</a>
+ &#8226;   <a href="#nntplib">nntplib</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#resource">resource</a>
+ &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#signal">signal</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#stat">stat</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#test">test</a>
+ &#8226;   <a href="#test.support.testresult">test.support.testresult</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#tkinter">tkinter</a>
+ &#8226;   <a href="#tracemalloc">tracemalloc</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#unicodedata">unicodedata</a>
+ &#8226;   <a href="#unittest">unittest</a>
+ &#8226;   <a href="#urllib.error">urllib.error</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#zlib">zlib</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#multiprocessing.util">multiprocessing.util</a>
+ &#8226;   <a href="#test">test</a>
+ &#8226;   <a href="#test.support.testresult">test.support.testresult</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="test.support.testresult"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/test/support/testresult.py" type="text/plain"><tt>test.support.testresult</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#datetime">datetime</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#test.support">test.support</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#unittest">unittest</a>
+ &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="textwrap"></a>
   <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/textwrap.py" type="text/plain"><tt>textwrap</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -12903,7 +13439,6 @@ imported by:
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#optparse">optparse</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
@@ -12982,8 +13517,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL.PdfImagePlugin">PIL.PdfImagePlugin</a>
- &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.zipio">PyInstaller.lib.modulegraph.zipio</a>
  &#8226;   <a href="#_datetime">_datetime</a>
  &#8226;   <a href="#_dummy_thread">_dummy_thread</a>
@@ -13027,6 +13560,45 @@ imported by:
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
  &#8226;   <a href="#zipfile">zipfile</a>
  &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="tkinter"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/tkinter/__init__.py" type="text/plain"><tt>tkinter</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#_tkinter">_tkinter</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tkinter.constants">tkinter.constants</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#test.support">test.support</a>
+ &#8226;   <a href="#tkinter.constants">tkinter.constants</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="tkinter.constants"></a>
+  <a target="code" href="///C:/users/degru/appdata/local/programs/python/python38-32/lib/tkinter/constants.py" type="text/plain"><tt>tkinter.constants</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#tkinter">tkinter</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#tkinter">tkinter</a>
 
   </div>
 
@@ -13176,8 +13748,7 @@ imports:
 imported by:
     <a href="#Main.py">Main.py</a>
  &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
- &#8226;   <a href="#PyInstaller.depend.bytecode">PyInstaller.depend.bytecode</a>
- &#8226;   <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
+ &#8226;   <a href="#PyInstaller.utils.win32.icon">PyInstaller.utils.win32.icon</a>
  &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
  &#8226;   <a href="#asyncio.locks">asyncio.locks</a>
  &#8226;   <a href="#asyncio.tasks">asyncio.tasks</a>
@@ -13237,8 +13808,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PyInstaller.utils.hooks">PyInstaller.utils.hooks</a>
- &#8226;   <a href="#asyncio.staggered">asyncio.staggered</a>
+    <a href="#asyncio.staggered">asyncio.staggered</a>
  &#8226;   <a href="#functools">functools</a>
 
   </div>
@@ -13740,15 +14310,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#Main.py">Main.py</a>
- &#8226;   <a href="#PIL">PIL</a>
- &#8226;   <a href="#PIL.IcoImagePlugin">PIL.IcoImagePlugin</a>
- &#8226;   <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#PIL.ImageFile">PIL.ImageFile</a>
- &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PIL.TgaImagePlugin">PIL.TgaImagePlugin</a>
- &#8226;   <a href="#PIL.TiffImagePlugin">PIL.TiffImagePlugin</a>
- &#8226;   <a href="#PIL.features">PIL.features</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.find_modules">PyInstaller.lib.modulegraph.find_modules</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
@@ -13787,7 +14348,6 @@ imported by:
  &#8226;   <a href="#distutils.extension">distutils.extension</a>
  &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#enum">enum</a>
- &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#getpass">getpass</a>
@@ -13813,7 +14373,6 @@ imported by:
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
- &#8226;   <a href="#pkg_resources.py2_warn">pkg_resources.py2_warn</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#pycparser.ply.yacc">pycparser.ply.yacc</a>
@@ -13896,8 +14455,6 @@ imported by:
  &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
- &#8226;   <a href="#win32ctypes.core.cffi._authentication">win32ctypes.core.cffi._authentication</a>
- &#8226;   <a href="#win32ctypes.core.cffi._common">win32ctypes.core.cffi._common</a>
  &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
 
   </div>
@@ -13943,11 +14500,33 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="win32com"></a>
-  <a target="code" href="" type="text/plain"><tt>win32com</tt></a>
+  <a name="win32com.shell"></a>
+  <a target="code" href="" type="text/plain"><tt>win32com.shell</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="win32evtlog"></a>
+  <a target="code" href="" type="text/plain"><tt>win32evtlog</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#logging.handlers">logging.handlers</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="win32evtlogutil"></a>
+  <a target="code" href="" type="text/plain"><tt>win32evtlogutil</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#logging.handlers">logging.handlers</a>
 
   </div>
 
@@ -14086,8 +14665,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#_elementtree">_elementtree</a>
+    <a href="#_elementtree">_elementtree</a>
  &#8226;   <a href="#pygame.sysfont">pygame.sysfont</a>
  &#8226;   <a href="#test.support.testresult">test.support.testresult</a>
  &#8226;   <a href="#xml.etree">xml.etree</a>
@@ -14422,9 +15000,7 @@ imported by:
   <a name="zlib"></a>
   <tt>zlib</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#PIL.PdfParser">PIL.PdfParser</a>
- &#8226;   <a href="#PIL.PngImagePlugin">PIL.PngImagePlugin</a>
- &#8226;   <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
+    <a href="#PyInstaller.archive.writers">PyInstaller.archive.writers</a>
  &#8226;   <a href="#PyInstaller.loader.pyimod02_archive">PyInstaller.loader.pyimod02_archive</a>
  &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
  &#8226;   <a href="#gzip">gzip</a>

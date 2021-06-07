@@ -1,30 +1,20 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- 
-import sys
-import os
-if os.getcwd()[-4:] != "Code":
-    try:
-        os.chdir("Code")
-    except:
-        raise SystemExit("pas dans le bon dossier")
-    
 from math import floor
 
 import pygame
-from Joueur import Joueur
-from Lecteur_De_Matrice import Lecteur_De_Matrice
-from Point import Point
-from Fonction import *
-from Selecteur_de_niveaux import *
-from Menu import *
+from Code.Joueur import Joueur
+from Code.Lecteur_De_Matrice import Lecteur_De_Matrice
+from Code.Point import Point
+from Code.Fonction import *
+from Code.Selecteur_de_niveaux import *
+from Code.Menu import *
 import time as ti;
 import json
+import pkg_resources.py2_warn
 
 pygame.init()
-icon = pygame.image.load("../Texture/Menu/Logo.png")
+icon = pygame.image.load("/Texture/Menu/Logo.png")
 pygame.display.set_icon(icon)
-if __name__ == '__main__' and not sys.argv[-1] == "--no_menu":
-    menus()
+menus()
 time = 0
 
 times = 0
@@ -34,18 +24,13 @@ imgnbr = 0
 # Code RGB du noir et du blanc
 BLUE = (60, 60, 255)
 WHITE = (255, 255, 255)
-screen_color = pygame.Color(0,0,0)
 # Taille de l'écran
 SIZE = (1280, 720)
 # l'horloge est utilisée pour le contrôle de la vitesse de rafraîchissement de l’écran
 clock = pygame.time.Clock()
 
 # apparition du personnage
-Sprite_Droite = pygame.image.load('../Texture/Joueur/Heros_vue_de_cote.png')
-Sprite_Gauche = pygame.image.load('../Texture/Joueur/Heros_vue_de_cote_gauche.png')
-
-Sprite_J1 = Sprite_Droite
-
+Sprite_J1 = pygame.image.load('/Texture/Joueur/Heros_vue_de_cote.png')
 # Création d'une fenêtre à la taille choisie
 pygame.display.set_caption("Pixel Run")
 screen = pygame.display.set_mode(SIZE)
@@ -60,8 +45,6 @@ mono = floor(ti.time())
 
 pygame.font.init()
 myfont = pygame.font.SysFont('Comic Sans MC', 25)
-
-
 
 while running:
 
@@ -96,28 +79,20 @@ while running:
         # si user ferme la fenetre
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
-            if keys[pygame.K_q] or keys[pygame.K_RIGHT]:
+            if keys[pygame.K_a]:
                 J1.Bouger_Joueur(Direction_Gauche=True)
-                Sprite_J1 = Sprite_Gauche
-            if keys[pygame.K_d]or keys[pygame.K_LEFT]:
+            if keys[pygame.K_d]:
                 J1.Bouger_Joueur(Direction_Gauche=False)
-                Sprite_J1 = Sprite_Droite
             if keys[pygame.K_SPACE]:
                 if 0 in tranche:
                     J1.Sauter()
 
-            if keys[pygame.K_RETURN]:
-                import restart
-                pygame.quit()
-                raise SystemExit()
-
-            if not keys[pygame.K_q] and not keys[pygame.K_RIGHT] and not keys[pygame.K_d] and not keys[pygame.K_LEFT]:
+            if not keys[pygame.K_a] and not keys[pygame.K_d]:
                 J1.Velocite.x = 0
             # que l'event est fermeture de la fenetre
             if event.type == pygame.QUIT:
                 running = False
                 print("Fermeture du jeu")
-                pygame.quit()
         tranche_Gauche = [matrice[i][int(J1.collision_Haut_Gauche().x // 64):int(
             (J1.collision_Haut_Gauche().x + J1.Velocite.x) // 64) + 1] for i in
                           range(int(J1.collision_Haut_Gauche().y // 64), int(J1.collision_Bas_Gauche().y // 64) + 1)]
@@ -135,11 +110,7 @@ while running:
             running = False
             winning = True
         # affichage de la matrice et du
-        if screen_color.hsva[0]+1 < 360:
-            screen_color.hsva =  (screen_color.hsva[0]+1,100,100,100)
-        else:
-            screen_color.hsva =  (0,100,100,100)
-        screen.fill(screen_color) # pour ne pas avoir l'ecran RGB mettre une autre valeur a la place de screen_color
+        screen.fill(BLUE)
         Lecteur_De_Matrice(0, 20, 0, 20, matrice, screen)
         screen.blit(Sprite_J1, (int(J1.Position.x), int(J1.Position.y)))
         # --- ‘update’ l’écran avec le dessin des lignes
@@ -169,29 +140,29 @@ while running:
         running = True
         winning = False
         Level_actuelle += 1
-    if Level_actuelle > 4:
+    if Level_actuelle > 3:
         running = False
         winning = True
 if winning:
     i = 0
     while i < 300:
         screen.fill(BLUE)
-        screen.blit(pygame.image.load("../Texture/Menu/Win_screen.png"), (0, 0))
+        screen.blit(pygame.image.load("/Texture/Menu/Win_screen.png"), (0, 0))
 
         myfont = pygame.font.SysFont('Comic Sans MC', 35)
         img = myfont.render('Temps : ' + str(times) + ' secondes', True, (50, 50, 50))
-        screen.blit(img, (850, 305))
+        screen.blit(img, (850, 305));
 
-        try:
-            with open('record.json') as json_file:
-                data = json.load(json_file)
-                record = data['record']
-        except:
-            record = -1
+        with open('record.json') as json_file:
+            data = json.load(json_file)
+            for p in data['record']:
+                record = p['record']
 
-        if record > times or record == -1:
+        if record > times:
+            data = {'record': []}
+            data['record'].append({'record': times})
             with open('record.json', 'w') as outfile:
-                outfile.write(json.dumps({"record":times}))
+                json.dump(data, outfile)
             record = times
 
         myfont = pygame.font.SysFont('Comic Sans MC', 35)
@@ -201,6 +172,5 @@ if winning:
         pygame.display.flip()
         i += 1
         clock.tick(60)
-
 
 pygame.quit()
