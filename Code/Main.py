@@ -54,7 +54,7 @@ winning = False
 
 running = True
 
-Level_actuelle = 0
+Level_actuelle = 4
 
 mono = floor(ti.time())
 
