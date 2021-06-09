@@ -96,10 +96,10 @@ while running:
         # si user ferme la fenetre
         for event in pygame.event.get():
             keys = pygame.key.get_pressed()
-            if keys[pygame.K_q] or keys[pygame.K_RIGHT]:
+            if keys[pygame.K_q] or keys[pygame.K_a] or keys[pygame.K_LEFT]:
                 J1.Bouger_Joueur(Direction_Gauche=True)
                 Sprite_J1 = Sprite_Gauche
-            if keys[pygame.K_d]or keys[pygame.K_LEFT]:
+            if keys[pygame.K_d]or keys[pygame.K_RIGHT]:
                 J1.Bouger_Joueur(Direction_Gauche=False)
                 Sprite_J1 = Sprite_Droite
             if keys[pygame.K_SPACE]:
@@ -111,7 +111,7 @@ while running:
                 pygame.quit()
                 raise SystemExit()
 
-            if not keys[pygame.K_q] and not keys[pygame.K_RIGHT] and not keys[pygame.K_d] and not keys[pygame.K_LEFT]:
+            if not keys[pygame.K_q] and not keys[pygame.K_RIGHT] and not keys[pygame.K_d] and not keys[pygame.K_LEFT] and not keys[pygame.K_a]:
                 J1.Velocite.x = 0
             # que l'event est fermeture de la fenetre
             if event.type == pygame.QUIT:
@@ -169,7 +169,8 @@ while running:
         running = True
         winning = False
         Level_actuelle += 1
-    if Level_actuelle > 4:
+    #if Level_actuelle > 4:
+    if not os.path.isfile(f"Level_{Level_actuelle}.json") and not os.path.isfile(f"Code/Level_{Level_actuelle}.json"):
         running = False
         winning = True
 if winning:
